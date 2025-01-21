@@ -1,7 +1,9 @@
-import type { NextConfig } from "next";
+const isProd = process.env.NODE_ENV === 'production';
 
-const nextConfig: NextConfig = {
-  /* config options here */
+module.exports = {
+  basePath: isProd ? '/joaomaio.github.io' : '',
+  assetPrefix: isProd ? '/joaomaio.github.io' : '',
 };
 
-export default nextConfig;
+
+
