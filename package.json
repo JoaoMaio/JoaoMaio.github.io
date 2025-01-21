@@ -2,13 +2,14 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/JoaoMaio/JoaoMaio.git",
+  "homepage": "https://github.com/JoaoMaio/joaomaio.github.io.git",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "deploy": "next build && next export && touch out/.nojekyll && git add . && git commit -m 'Deploy' && git push"
+    "deploy": "gh-pages -d out",
+    "predeploy": "next build && next export"
   },
   "dependencies": {
     "next": "15.1.5",

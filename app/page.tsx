@@ -7,7 +7,7 @@ export default function HomePage() {
       <section id="about" className="flex items-center justify-center p-10 pb-0">
   
         <p className="mt-4 text-white max-w-full text-4xl text-center">
-          Hi there! I'm <span className="text-blue-500 font-black"> João Maio</span>, a developer based in Portugal,  with a Master's Degree in Computer Science taken in Universidade da Beira Interior. 
+          Hi there! I&apos;m <span className="text-blue-500 font-black"> Joao Maio</span>, a developer based in Portugal,  with a Master&apos;s Degree in Computer Science taken in Universidade da Beira Interior. 
           <br></br>
           I love learning new things and solving problems.
         </p>
