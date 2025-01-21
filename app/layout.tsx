@@ -3,15 +3,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import TypewriterEffect from "@/components/typewriter";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Testing",
@@ -25,10 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className="bg-gradient-to-l from-Gblack to-Gpurple">
         {/* Header */}
-        <header id="home" className="sticky top-0 z-50 shadow-md">
-          <nav className="container mx-auto px-4 py-3 flex justify-between items-center">
+        <header id="home" className="sticky top-0 z-50 shadow-md backdrop-blur-lg">
+          <nav className="mx-4 py-3 flex justify-between items-center">
             {/* Logo */}
             <div>
               <TypewriterEffect words={["<João Maio/>"]} />
@@ -37,17 +28,28 @@ export default function RootLayout({
             {/* Navigation Links */}
             <ul className="flex justify-center items-center space-x-6">
               <li>
-                <a href="#about" className="text-gray-700 hover:text-blue-500">
+                <a href="#about" className="text-white hover:text-blue-500">
                   About
                 </a>
               </li>
               <li>
-                <a href="#projects" className="text-gray-700 hover:text-blue-500">
+                <a href="#projects" className="text-white hover:text-blue-500">
                   Projects
                 </a>
               </li>
               <li>
-                <a href="#contact" className="text-gray-700 hover:text-blue-500">
+                <a href="#workexp" className="text-white hover:text-blue-500">
+                  Work Experience
+                </a>
+              </li>
+
+              <li>
+                <a href="#currentLearning" className="text-white hover:text-blue-500">
+                  Currently Learning
+                </a>
+              </li>
+              <li>
+                <a href="#contact" className="text-white hover:text-blue-500">
                   Contact
                 </a>
               </li>
@@ -59,7 +61,7 @@ export default function RootLayout({
         <main>{children}</main>
 
         {/* Footer */}
-        <footer className="text-center py-4 bg-gray-100 text-gray-600">
+        <footer className="text-center py-4 text-white z-50">
           &copy; {new Date().getFullYear()} My Portfolio. All rights reserved.
         </footer>
       </body>
