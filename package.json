@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/JoaoMaio/joaomaio.github.io.git",
+  "homepage": "https://JoaoMaio.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -1,9 +1,10 @@
-const isProd = process.env.NODE_ENV === 'production';
-
-module.exports = {
-  basePath: isProd ? '/joaomaio.github.io' : '',
-  assetPrefix: isProd ? '/joaomaio.github.io' : '',
+// next.config.ts
+const nextConfig = {
+  output: 'export',  // Tells Next.js to export static files
+  reactStrictMode: true,
+  images: {
+    unoptimized: true,  // Prevent image optimization errors during static export
+  },
 };
 
-
-
+export default nextConfig;
