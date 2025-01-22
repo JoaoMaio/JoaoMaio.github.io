@@ -32,7 +32,7 @@ export default function RootLayout({
               </li>
               <li>
                 <a href="#workexp" className="text-center block py-2 text-white hover:text-blue-500">
-                  Work Experience
+                  Experience
                 </a>
               </li>
               <li>
