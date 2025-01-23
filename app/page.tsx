@@ -8,7 +8,7 @@ export default function HomePage() {
       <h2 id="about" className="text-5xl pt-20 font-bold text-gray-200 text-center">About Me</h2>
 
       {/* About Section */}
-      <section className="flex items-center justify-center p-10 pb-0">
+      <section className="flex items-center justify-center p-10 pb-0 max-w-3/4 mx-auto">
         <p className="mt-4 text-white max-w-full text-3xl text-center">
           Hi there! I&apos;m <span className="text-blue-500 font-black"> Joao Maio</span>, a 23 year old developer based in Portugal, with a Master&apos;s Degree in Computer Science taken in Universidade da Beira Interior.
           <br></br>
@@ -29,7 +29,7 @@ export default function HomePage() {
       <h2 id="workexp" className="text-5xl pt-20 font-bold text-gray-200 text-center">Experience</h2>
 
       {/* Work Experience Section */}
-      <section className="min-h-screen flex flex-col items-center p-8 space-y-8">
+      <section className="flex flex-col items-center p-8 space-y-8 max-w-3/4 mx-auto">
         {/* Computer Science Degree */}
         <div className="px-4 py-4 mx-auto font-normal bg-gray-300 rounded-lg w-full max-w-[900px]">
           <div className="flex flex-col justify-between lg:flex-row">
@@ -157,7 +157,83 @@ export default function HomePage() {
       <h2 id="projects" className="text-5xl pt-20 font-bold text-gray-200 text-center">Projects</h2>
 
       {/* Projects Section */}
-      <section className="min-h-screen flex items-center justify-center p-8">
+      <section className="flex items-center justify-center p-8 max-w-3/4 mx-auto">
+
+        {/* WatchList Wizard*/}
+        <div className="bg-gray-300 p-5 flex flex-col items-center mx-auto border-b mb-10 border-gray-200 rounded-lg w-full max-w-[420px]">
+
+            <div className="h-[80px] w-[80px] inline-flex items-center justify-center flex-shrink-0">
+              <img className="h-full w-full object-contain" src="/watchlist_wizard.png" alt="Watchlist Wizard" />
+            </div>
+
+            <div className="flex-grow text-center mt-6 sm:mt-0">
+                <h1 className="text-black font-bold text-2xl">Watchlist Wizard</h1>
+                <h3 className="text-gray-500 font-bold text-lg  mb-3">Easily track favorite movies and shows!</h3>  
+                
+                <p>This project was created to be a personal use App. It was made in 2024/2025 with <strong className="font-bold">Angular</strong> for the Front-End and Back-End, with <strong className="font-bold">Capacitor</strong> to transform it into an Android App and <a href="https://www.themoviedb.org/" className="underline hover:text-blue-500">The Movie Database</a> for API.</p>
+                
+                <div className="py-4">
+                    <div className=" inline-block mr-2 mb-2" >
+                        <div className="flex  pr-2 h-full items-center">
+                          <p className="px-2 text-gray-200 bg-angularColor rounded">Angular</p>
+                        </div>
+                    </div>
+                    <div className="inline-block mr-2 mb-2" >
+                        <div className="flex  pr-2 h-full items-center">
+                          <p className="px-2 text-gray-200 bg-drupalColor rounded">Capacitator</p>
+                        </div>
+                    </div>
+                    <div className=" inline-block mr-2 mb-2" >
+                        <div className="flex  pr-2 h-full items-center">
+                          <p className="px-2 text-gray-200 bg-phpColor rounded">SQLite</p>
+                        </div>
+                    </div>
+                </div>
+                <a className="mt-3 text-indigo-500 inline-flex items-center" href="https://github.com/JoaoMaio/WatchList-Wizard">Learn More
+                  <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                      <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+            </div>
+        </div>
+
+        {/* Gameify*/}
+        <div className="bg-gray-300 p-5 flex flex-col items-center mx-auto border-b mb-10 border-gray-200 rounded-lg w-full max-w-[420px]">
+
+          <div className="h-[80px] w-[80px] inline-flex items-center justify-center flex-shrink-0">
+            <img className="h-full w-full object-contain" src="/gameify.png" alt="Watchlist Wizard" />
+          </div>
+
+          <div className="flex-grow text-center mt-6 sm:mt-0">
+              <h1 className="text-black font-bold text-2xl">Gameify</h1>
+              <h3 className="text-gray-500 font-bold text-lg  mb-3">A Game Price Tracker and Info Extractor!</h3>  
+              
+              <p>This project was created in 2022, using <strong className="font-bold">Flutter</strong> for the App, <strong className="font-bold">Python</strong> as an API Server that would extract/scrap the information from the websites needed and <strong className="font-bold">Firebase</strong> as a Database.</p>
+            
+              <div className="py-4">
+                  <div className=" inline-block mr-2 mb-2" >
+                      <div className="flex  pr-2 h-full items-center">
+                        <p className="px-2 text-gray-200 bg-angularColor rounded">Flutter</p>
+                      </div>
+                  </div>
+                  <div className="inline-block mr-2 mb-2" >
+                      <div className="flex  pr-2 h-full items-center">
+                        <p className="px-2 text-gray-200 bg-drupalColor rounded">Python</p>
+                      </div>
+                  </div>
+                  <div className=" inline-block mr-2 mb-2" >
+                      <div className="flex  pr-2 h-full items-center">
+                        <p className="px-2 text-gray-200 bg-phpColor rounded">Firebase</p>
+                      </div>
+                  </div>
+              </div>
+              <a className="mt-3 text-indigo-500 inline-flex items-center" href="https://github.com/JoaoMaio/Gameify">Learn More
+                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+          </div>
+          </div>
 
       </section>
 
@@ -166,9 +242,11 @@ export default function HomePage() {
         <hr className="w-10 border-t-2 border-gray-300 my-8"></hr>
       </div>
 
+      {/* Section Title */}
+      <h2 id="contact" className="text-5xl pt-20 font-bold text-gray-200 text-center">Contact</h2>
+
       {/* Contact Section */}
-      <section id="contact" className="min-h-screen flex items-center justify-center p-8">
-        <h2 className="text-3xl font-bold text-gray-800">Contact</h2>
+      <section  className="flex items-center justify-center p-8 max-w-3/4 mx-auto">
         <p className="mt-4 text-gray-700">
           Email me at:{" "}
           <a href="mailto:your-email@example.com" className="text-blue-500 hover:underline">
