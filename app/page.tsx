@@ -157,7 +157,7 @@ export default function HomePage() {
       <h2 id="projects" className="text-5xl pt-20 font-bold text-gray-200 text-center">Projects</h2>
 
       {/* Projects Section */}
-      <section className="flex flex-col xl:flex-row gap-6 items-center justify-center p-8 max-w-[1500px] max-w-[900px] mx-auto">
+      <section className="flex flex-col xl:flex-row gap-6 items-center justify-center p-8 max-w-[1500px] mx-auto">
 
         {/* WatchList Wizard*/}
         <div className="bg-gray-300 p-5 flex flex-col items-center  border-b mb-10 border-gray-200 rounded-lg w-[450px] h-[400px]">
