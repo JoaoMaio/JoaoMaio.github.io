@@ -76,6 +76,9 @@ export default function HomePage() {
           <p className="text-gray-500">5 Months of Curricular Internship (30/10/2023 until 28/03/2024)</p>
             <ul className="list-disc pl-5">
               <li className="text-gray-700">
+                  Worked as a Full-Stack Developer
+              </li>
+              <li className="text-gray-700">
                 Learned how to use <strong className="font-bold">Angular</strong>, <strong className="font-bold">TypeScript</strong>, <strong className="font-bold">HTML & CSS</strong>,  <strong className="font-bold">ASP.NET</strong>, <strong className="font-bold">C#</strong>, and <strong className="font-bold">Docker</strong> when working on an internal project for the Company.
               </li>
               <li className="text-gray-700">
@@ -107,6 +110,9 @@ export default function HomePage() {
           <p className="text-gray-500">9 Months of Paid Internship (28/03/2024 until 31/12/2024)</p>
             <ul className="list-disc pl-5">
               <li className="text-gray-700">
+                    Worked as a Full-Stack Developer
+              </li>
+              <li className="text-gray-700">
                 Used <strong className="font-bold">Angular</strong>, <strong className="font-bold">TypeScript</strong>, <strong className="font-bold">HTML & CSS</strong>,  <strong className="font-bold">ASP.NET</strong>, <strong className="font-bold">C#</strong>, and <strong className="font-bold">Docker</strong> when working on <a href="https://www.bio2.pt" className="underline hover:text-blue-500">Bio2</a> Portal website.
               </li>
               <li className="text-gray-700">
@@ -134,7 +140,7 @@ export default function HomePage() {
           <p className="text-gray-500">11 Months (03/02/2024 until 31/12/2024)</p>
             <ul className="list-disc pl-5">
               <li className="text-gray-700">
-              <a href="https://www.facebook.com/ADoTPortugal/?checkpoint_src=any" className="underline hover:text-blue-500">ADoT</a> is a non-profit organization that aims to help young students develop their skills in the IT area. Teaching young students how to code using <strong className="font-bold">Scratch</strong>, <strong className="font-bold">C</strong>, <strong className="font-bold">Python</strong> and <strong className="font-bold">Java</strong>.
+              <a href="https://www.facebook.com/ADoTPortugal/?checkpoint_src=any" className="underline hover:text-blue-500">ADoT</a> is a non-profit organization that aims to help young students develop their skills in the IT area. My job was to teach young students how to code using <strong className="font-bold">Scratch</strong>, <strong className="font-bold">C</strong>, <strong className="font-bold">Python</strong> and <strong className="font-bold">Java</strong>.
               </li>
             </ul>
         </div>      
