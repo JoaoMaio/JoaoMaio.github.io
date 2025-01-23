@@ -9,7 +9,7 @@ export default function HomePage() {
 
       {/* About Section */}
       <section className="flex items-center justify-center p-10 pb-0">
-        <p className="mt-4 text-white max-w-full text-4xl text-center">
+        <p className="mt-4 text-white max-w-full text-3xl text-center">
           Hi there! I&apos;m <span className="text-blue-500 font-black"> Joao Maio</span>, a 23 year old developer based in Portugal, with a Master&apos;s Degree in Computer Science taken in Universidade da Beira Interior.
           <br></br>
           In addition to coding, I enjoy playing RPGs, swimming, tinkering with personal projects and learning new things. My goal is to create impactful software that combines functionality with great user experience. 
@@ -158,20 +158,13 @@ export default function HomePage() {
 
       {/* Projects Section */}
       <section className="min-h-screen flex items-center justify-center p-8">
-        <h2 className="text-3xl font-bold text-gray-800">Projects</h2>
-        <ul className="mt-4 space-y-4">
-          <li>
-            <a href="#" className="text-blue-500 hover:underline">
-              Project 1: Amazing Web App
-            </a>
-          </li>
-          <li>
-            <a href="#" className="text-blue-500 hover:underline">
-              Project 2: Cool Automation Tool
-            </a>
-          </li>
-        </ul>
+
       </section>
+
+      {/* Divider */}
+      <div className="flex flex-col items-center justify-center">
+        <hr className="w-10 border-t-2 border-gray-300 my-8"></hr>
+      </div>
 
       {/* Contact Section */}
       <section id="contact" className="min-h-screen flex items-center justify-center p-8">
