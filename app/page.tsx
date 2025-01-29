@@ -285,6 +285,33 @@ export default function HomePage() {
         <hr className="w-10 border-t-2 border-gray-300 my-8"></hr>
       </div>
 
+      {/* ----------------------------------------------------------------------------------------------------------- */}
+
+      {/* Section Title */}
+      <h2 id="currentLearning" className="text-5xl pt-20 font-bold text-gray-200 text-center">Currently Learning</h2>
+
+      {/* Projects Section */}
+      <section className="flex flex-col gap-6 items-center justify-center p-8 max-w-[1500px] mx-auto">
+        <code className="text-lg inline-flex text-left items-center space-x-4 w-[650px] bg-gray-800 text-white rounded-lg p-4 pl-6">
+            <span className="flex gap-4">
+                <span className="shrink-0 text-gray-500">$</span>
+                <span className="flex-1">
+                    <span> Rust🦀-</span>
+                    <span className="text-yellow-500"> Working on a Personal Project using Iced Library</span>
+                </span>
+            </span>
+        </code>
+        <code className="text-lg inline-flex text-left items-center space-x-4 w-[650px] bg-gray-800 text-white rounded-lg p-4 pl-6">
+            <span className="flex gap-4">
+                <span className="shrink-0 text-gray-500">$</span>
+                <span className="flex-1">
+                    <span> Godot🎮-</span>
+                    <span className="text-yellow-500"> Working on a Small Game for Learning the basics</span>
+                </span>
+            </span>
+        </code>
+      </section>
+
        {/* ----------------------------------------------------------------------------------------------------------- */}
 
       {/* Section Title */}
