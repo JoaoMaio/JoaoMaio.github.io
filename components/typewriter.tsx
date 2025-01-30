@@ -42,7 +42,7 @@ const TypewriterEffect: React.FC<TypewriterEffectProps> = ({ words }) => {
     return () => clearTimeout(timer); // Clean up the timer on re-renders
   }, [currentText, charIndex, isDeleting, wordIndex, words]);
 
-  return <h2 id="typewriter" className="text-3xl font-bold">{currentText}</h2>;
+  return <h2 id="typewriter" className="text-3xl text-textColor font-bold">{currentText}</h2>;
 };
 
 export default TypewriterEffect;

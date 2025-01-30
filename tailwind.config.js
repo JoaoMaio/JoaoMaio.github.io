@@ -8,9 +8,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "Gblack": "#2b5876",
-        "Gpurple": "#4e4376",
-
+        "background": "#16161a",
+        "background2": "#242629",
+        "textColor": "#fffffe",
+        "textColor2": "#94a1b2",
+        "headingColor": "#c59a10",
+        "button": "#7f5af0",
+        "main": "#7f5af0",
+        "highlight": "#7f5af0",
+        "secondary": "#72757e",
+        "tertiary": "#2cb67d",
+        "borderColor": "#010101", 
         "cssColor": "#32a7dd",
         "htmlColor": "#e44d26",
         "angularColor": "#de3036",
