@@ -33,7 +33,7 @@ export default function HomePage() {
       {/* Work Experience Section */}
       <section className="flex flex-col items-center p-8 space-y-8 mx-auto">
         {/* Computer Science Degree */}
-        <div className="px-4 py-4 mx-auto font-normal bg-background2 border-borderColor rounded-lg w-full max-w-[900px]">
+        <div className="px-4 py-4 mx-auto font-normal bg-background2 border-borderColor rounded-lg w-full max-w-[1000px]">
           <div className="flex flex-col justify-between lg:flex-row items-center">
             <h3 className="mb-2 text-xl md:text-2xl font-semibold leading-snug text-center lg:text-left">
               <a className="underline text-textColor hover:text-highlight" href="https://www.ubi.pt">Bachelor&apos;s and Master&apos;s Degree at UBI</a>
@@ -44,12 +44,12 @@ export default function HomePage() {
               <p className="px-2 text-textColor bg-dockerColor rounded">Python</p>
             </div>
           </div>
-          <p className="text-textColor2 text-sm md:text-base">5 Years (2019 - 2024)</p>
-            <ul className="list-disc pl-5">
-              <li className="text-headingColor text-sm md:text-base">
+          <p className="text-textColor2 text-sm md:text-lg">5 Years (2019 - 2024)</p>
+            <ul className="list-disc pl-5 text-sm md:text-xl">
+              <li className="text-headingColor ">
                 I was primarly teached how to use <strong className="font-bold">C</strong>, <strong className="font-bold">C++</strong>, <strong className="font-bold">Java</strong> and <strong className="font-bold">Python</strong>.
               </li>
-              <li className="text-headingColor text-sm md:text-base">
+              <li className="text-headingColor">
                 I also learned a litle bit of <strong className="font-bold">HTML & CSS</strong>, <strong className="font-bold">Assembly</strong>, <strong className="font-bold">Arduino</strong> and <strong className="font-bold">Bash</strong>.
               </li>
             </ul>
@@ -59,7 +59,7 @@ export default function HomePage() {
         <div className="w-[2px] h-6 md:h-20 bg-gray-500"></div>
 
         {/* First Work Experience */}
-        <div className="px-4 py-4 mx-auto font-normal bg-background2 border-borderColor rounded-lg w-full max-w-[900px]">
+        <div className="px-4 py-4 mx-auto font-normal bg-background2 border-borderColor rounded-lg w-full max-w-[1000px]">
           <div className="flex flex-col justify-between lg:flex-row items-center">
             <h3 className="mb-2 text-xl md:text-2xl font-semibold leading-snug text-center lg:text-left">
               <a className="underline text-textColor hover:text-highlight" href="https://latitudde.com">Latitudde</a>
@@ -75,15 +75,15 @@ export default function HomePage() {
               <p className="px-2 text-textColor bg-phpColor rounded">PHP</p>
             </div>
           </div>
-          <p className="text-textColor2 text-sm md:text-base">5 Months of Curricular Internship (30/10/2023 until 28/03/2024)</p>
-            <ul className="list-disc pl-5">
-              <li className="text-headingColor text-sm md:text-base">
+          <p className="text-textColor2 text-sm md:text-lg">5 Months of Curricular Internship (30/10/2023 until 28/03/2024)</p>
+            <ul className="list-disc pl-5 text-sm md:text-xl">
+              <li className="text-headingColor">
                   Worked as a Full-Stack Developer
               </li>
-              <li className="text-headingColor text-sm md:text-base">
+              <li className="text-headingColor">
                 Learned how to use <strong className="font-bold">Angular</strong>, <strong className="font-bold">TypeScript</strong>, <strong className="font-bold">HTML & CSS</strong>,  <strong className="font-bold">ASP.NET</strong>, <strong className="font-bold">C#</strong>, and <strong className="font-bold">Docker</strong> when working on an internal project for the Company.
               </li>
-              <li className="text-headingColor text-sm md:text-base">
+              <li className="text-headingColor">
                 I also learned how to use <strong className="font-bold">Drupal</strong> and <strong className="font-bold">PHP</strong> when working on <a href="https://www.infraestruturasdeportugal.pt" className="underline text-headingColor hover:text-highlight">Infraestruturas de Portugal</a> websites.
               </li>
             </ul>
@@ -93,7 +93,7 @@ export default function HomePage() {
         <div className="w-[2px] h-6 md:h-20 bg-gray-500"></div>
 
         {/* Second Work Experience  */}
-        <div className="px-4 py-4 mx-auto font-normal bg-background2 border-borderColor rounded-lg w-full max-w-[900px]">
+        <div className="px-4 py-4 mx-auto font-normal bg-background2 border-borderColor rounded-lg w-full max-w-[1000px]">
           <div className="flex flex-col justify-between lg:flex-row items-center">
             <h3 className="mb-2 text-xl md:text-2xl font-semibold leading-snug text-center lg:text-left">
               <a className="underline text-textColor hover:text-highlight" href="https://latitudde.com">Latitudde</a>
@@ -109,15 +109,15 @@ export default function HomePage() {
               <p className="px-2 text-textColor bg-phpColor rounded">PHP</p>
             </div>
           </div>
-          <p className="text-textColor2 text-sm md:text-base">9 Months of Paid Internship (28/03/2024 until 31/12/2024)</p>
-            <ul className="list-disc pl-5">
-              <li className="text-headingColor text-sm md:text-base">
+          <p className="text-textColor2 text-sm md:text-lg">9 Months of Paid Internship (28/03/2024 until 31/12/2024)</p>
+            <ul className="list-disc pl-5 text-sm md:text-xl">
+              <li className="text-headingColor">
                     Worked as a Full-Stack Developer
               </li>
-              <li className="text-headingColor text-sm md:text-base">
+              <li className="text-headingColor">
                 Used <strong className="font-bold">Angular</strong>, <strong className="font-bold">TypeScript</strong>, <strong className="font-bold">HTML & CSS</strong>,  <strong className="font-bold">ASP.NET</strong>, <strong className="font-bold">C#</strong>, and <strong className="font-bold">Docker</strong> when working on <a href="https://www.bio2.pt" className="underline text-headingColor hover:text-highlight">Bio2</a> Portal website.
               </li>
-              <li className="text-headingColor text-sm md:text-base">
+              <li className="text-headingColor">
                 Continued working on the <a href="https://www.infraestruturasdeportugal.pt" className="underline text-headingColor hover:text-highlight">Infraestruturas de Portugal</a> websites.
               </li>
             </ul>
@@ -127,7 +127,7 @@ export default function HomePage() {
         <div id="adot" className="w-[2px] h-6 md:h-20 bg-gray-500"></div>
 
         {/* Third Work Experience */}
-        <div  className="px-4 py-4 mx-auto font-normal bg-background2 border-borderColor rounded-lg w-full max-w-[900px]">
+        <div  className="px-4 py-4 mx-auto font-normal bg-background2 border-borderColor rounded-lg w-full max-w-[1000px]">
           <div className="flex flex-col justify-between lg:flex-row items-center">
             <h3 className="mb-2 text-xl md:text-2xl font-semibold leading-snug text-center lg:text-left">
               <a className="underline text-textColor hover:text-highlight" href="https://adot.pt">Associação Desenvolver o Talento</a>
@@ -139,9 +139,9 @@ export default function HomePage() {
               <p className="px-2 text-textColor bg-phpColor rounded">Java</p>
             </div>
           </div>
-          <p className="text-textColor2 text-sm md:text-base">11 Months (03/02/2024 until 31/12/2024)</p>
-            <ul className="list-disc pl-5">
-              <li className="text-headingColor text-sm md:text-base">
+          <p className="text-textColor2 text-sm md:text-lg">11 Months (03/02/2024 until 31/12/2024)</p>
+            <ul className="list-disc pl-5 text-sm md:text-xl">
+              <li className="text-headingColor">
               <a href="https://www.facebook.com/ADoTPortugal/?checkpoint_src=any" className="underline text-headingColor hover:text-highlight">ADoT</a> is a non-profit organization that aims to help young students develop their skills in the IT area. My job was to teach young students how to code using <strong className="font-bold">Scratch</strong>, <strong className="font-bold">C</strong>, <strong className="font-bold">Python</strong> and <strong className="font-bold">Java</strong>.
               </li>
             </ul>
@@ -168,11 +168,11 @@ export default function HomePage() {
               <img className="h-full w-full object-contain" src="/watchlist_wizard.png" alt="Watchlist Wizard" />
             </div>
 
-            <div className="flex-grow text-center mt-6 sm:mt-0">
+            <div className="relative flex-grow text-center mt-6 sm:mt-0">
                 <h1 className="text-textColor font-bold text-xl md:text-2xl">Watchlist Wizard</h1>
                 <h3 className="text-textColor2 font-bold text-base md:text-lg mb-3">Track favorite movies and shows!</h3>  
                 
-                <p className="text-headingColor text-sm md:text-base">This project was created to be a personal use App. It was made in 2024/2025 with <strong className="font-bold">Angular</strong> for the Front-End and Back-End, with <strong className="font-bold">Capacitor</strong> to transform it into an Android App and <a href="https://www.themoviedb.org/" className="underline text-headingColor hover:text-highlight">The Movie Database</a> for API.</p>
+                <p className="text-headingColor text-sm md:text-lg">This project was created to be a personal use App. It was made in 2024/2025 with <strong className="font-bold">Angular</strong> for the Front-End and Back-End, with <strong className="font-bold">Capacitor</strong> to transform it into an Android App and <a href="https://www.themoviedb.org/" className="underline text-headingColor hover:text-highlight">The Movie Database</a> for API.</p>
                 
                 <div className="py-4">
                     <div className=" inline-block mr-2 mb-2" >
@@ -191,7 +191,8 @@ export default function HomePage() {
                         </div>
                     </div>
                 </div>
-                <a className="mt-3 text-highlight inline-flex items-center" href="https://github.com/JoaoMaio/WatchList-Wizard">Learn More
+
+                <a className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 text-highlight inline-flex items-center" href="https://github.com/JoaoMaio/WatchList-Wizard">Learn More
                   <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
@@ -206,11 +207,11 @@ export default function HomePage() {
             <img className="h-full w-full object-contain" src="/gameify.png" alt="Gameify" />
           </div>
 
-          <div className="flex-grow text-center mt-6 sm:mt-0">
+          <div className="relative flex-grow text-center mt-6 sm:mt-0">
               <h1 className="text-textColor font-bold text-xl md:text-2xl">Gameify</h1>
               <h3 className="text-textColor2 font-bold text-sm md:text-lg mb-3">A Game Price Tracker and Info Extractor!</h3>  
               
-              <p className="text-headingColor text-sm md:text-base">This project was created in 2022, using <strong className="font-bold">Flutter</strong> for the App, <strong className="font-bold">Python</strong> as an API Server that would extract/scrap the information from the websites needed and <strong className="font-bold">Firebase</strong> as a Database.</p>
+              <p className="text-headingColor text-sm md:text-lg">This project was created in 2022, using <strong className="font-bold">Flutter</strong> for the App, <strong className="font-bold">Python</strong> as an API Server that would extract/scrap the information from the websites needed and <strong className="font-bold">Firebase</strong> as a Database.</p>
             
               <div className="py-4">
                   <div className=" inline-block mr-2 mb-2" >
@@ -229,7 +230,7 @@ export default function HomePage() {
                       </div>
                   </div>
               </div>
-              <a className="mt-3 text-highlight inline-flex items-center" href="https://github.com/JoaoMaio/Gameify">Learn More
+              <a className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 text-highlight inline-flex items-center" href="https://github.com/JoaoMaio/Gameify">Learn More
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
@@ -244,11 +245,11 @@ export default function HomePage() {
             <img className="h-full w-full object-contain" src="/folder.png" alt="SideProjects" />
           </div>
 
-          <div className="flex-grow text-center mt-6 sm:mt-0">
+          <div className="relative flex-grow text-center mt-6 sm:mt-0">
               <h1 className="text-textColor font-bold text-xl md:text-2xl">Side Projects</h1>
               <h3 className="text-textColor2 font-bold text-sm md:text-lg mb-3">Collection of codes</h3>  
               
-              <p className="text-headingColor text-sm md:text-base">This repository is a curated collection of mostly Python scripts and small projects I&apos;ve built during my free time. It&apos;s a mix of practical tools, personal experiments, and teaching materials (during my time at <a className="underline text-headingColor hover:text-highlight" href="#adot">ADoT</a>).
+              <p className="text-headingColor text-sm md:text-lg">This repository is a curated collection of mostly Python scripts and small projects I&apos;ve built during my free time. It&apos;s a mix of practical tools, personal experiments, and teaching materials (during my time at <a className="underline text-headingColor hover:text-highlight" href="#adot">ADoT</a>).
               </p>            
               <div className="py-4">
                   <div className=" inline-block mr-2 mb-2" >
@@ -272,7 +273,7 @@ export default function HomePage() {
                       </div>
                   </div>
               </div>
-              <a className="mt-3 text-highlight inline-flex items-center" href="https://github.com/JoaoMaio/Side-Projects">Learn More
+              <a className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 text-highlight inline-flex items-center" href="https://github.com/JoaoMaio/Side-Projects">Learn More
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
