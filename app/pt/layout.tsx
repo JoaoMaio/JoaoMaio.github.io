@@ -1,9 +1,13 @@
-'use client';
-
 import "../globals.css";
 import TypewriterEffect from "@/components/typewriter";
 import { ReactNode } from 'react';
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Joao Maio Portfolio",
+  description: "Demonstrar o meu trabalho e projetos",
+};
 
 type Props = {
   children: ReactNode;

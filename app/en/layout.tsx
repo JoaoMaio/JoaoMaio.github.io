@@ -1,12 +1,16 @@
-'use client';
-
 import "../globals.css";
 import TypewriterEffect from "@/components/typewriter";
 import { ReactNode } from 'react';
 import Link from "next/link";
+import { Metadata } from "next";
 
 type Props = {
   children: ReactNode;
+};
+
+export const metadata: Metadata = {
+  title: "Joao Maio Portfolio",
+  description: "Showcasing my work and projects",
 };
 
 export default function RootLayout({children }: Props) {

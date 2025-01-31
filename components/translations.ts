@@ -1,8 +1,6 @@
 'use client'; // Mark this as a Client Component
 
 import { usePathname } from 'next/navigation';
-import en from '@/public/locales/en.json';
-import pt from '@/public/locales/pt.json';
 import { Metadata } from 'next';
 
 export const useLanguage = () => {
