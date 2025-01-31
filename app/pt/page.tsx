@@ -14,11 +14,11 @@ export default function HomePage() {
       {/* About Section */}
       <section className="flex items-center justify-center pb-0 max-w-3/4 mx-auto">
         <p className="mt-4 text-textColor2 max-w-full text-base md:text-3xl text-center">
-        Hello! Eu sou o <span className="text-button font-black"> Joao Maio</span>,, um developer de 23 anos que mora em Portugal, com mestrado em Engenharia Informática na Universidade da Beira Interior.
+        Hello! Eu sou o <span className="text-button font-black"> Joao Maio</span>, um developer de 23 anos que mora em Portugal, com mestrado em Engenharia Informática na Universidade da Beira Interior.
           <br></br>
           Para além de programar, gosto de jogar RPGs, nadar, trabalhar em projetos pessoais e aprender coisas novas. O meu objetivo é criar software com qualidade que combine funcionalidade com uma excelente experiência para o utilizador.
           <br></br>
-          Não hesites em contactar- estou sempre disponível para discutir novas oportunidades interessantes!
+          Não hesites em contactar-me estou sempre disponível para discutir novas oportunidades interessantes!
         </p>
       </section>
 
@@ -77,7 +77,7 @@ export default function HomePage() {
               <p className="px-2 text-textColor bg-phpColor rounded">PHP</p>
             </div>
           </div>
-          <p className="text-textColor2 text-sm md:text-lg">5 Mesed de Estágio Curricular (30/10/2023 até 28/03/2024)</p>
+          <p className="text-textColor2 text-sm md:text-lg">5 Meses de Estágio Curricular (30/10/2023 até 28/03/2024)</p>
             <ul className="list-disc pl-5 text-sm md:text-xl">
               <li className="text-headingColor">
                   Trabalhei como Full-Stack Developer
@@ -111,7 +111,7 @@ export default function HomePage() {
               <p className="px-2 text-textColor bg-phpColor rounded">PHP</p>
             </div>
           </div>
-          <p className="text-textColor2 text-sm md:text-lg">9 Meses de Estágio Pago (28/03/2024 até 31/12/2024)</p>
+          <p className="text-textColor2 text-sm md:text-lg">9 Meses de Estágio Profissional (28/03/2024 até 31/12/2024)</p>
             <ul className="list-disc pl-5 text-sm md:text-xl">
               <li className="text-headingColor">
                 Trabalhei como Full-Stack Developer
