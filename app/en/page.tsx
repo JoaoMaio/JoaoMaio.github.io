@@ -1,5 +1,6 @@
 'use client';
 
+import OutboundLink from "@/components/outboundclick";
 import React from "react";
 
 export default function HomePage() {
@@ -176,6 +177,7 @@ export default function HomePage() {
                 
                 <p className="text-headingColor text-sm md:text-lg">This project was created to be a personal use App. It was made in 2024/2025 with <strong className="font-bold">Angular</strong> for the Front-End and Back-End, with <strong className="font-bold">Capacitor</strong> to transform it into an Android App and <a href="https://www.themoviedb.org/" className="underline text-headingColor hover:text-highlight">The Movie Database</a> for API.</p>
                 
+
                 <div className="py-4">
                     <div className=" inline-block mr-2 mb-2" >
                         <div className="flex  pr-2 h-full items-center">
@@ -194,11 +196,12 @@ export default function HomePage() {
                     </div>
                 </div>
 
-                <a className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 text-highlight inline-flex items-center" href="https://github.com/JoaoMaio/WatchList-Wizard">Learn More
+                <OutboundLink action="WatchList-Wizard-Github" href="https://github.com/JoaoMaio/WatchList-Wizard">
+                  Learn More 
                   <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                      <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
-                </a>
+                </OutboundLink>
             </div>
         </div>
 
@@ -232,11 +235,12 @@ export default function HomePage() {
                       </div>
                   </div>
               </div>
-              <a className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 text-highlight inline-flex items-center" href="https://github.com/JoaoMaio/Gameify">Learn More
+              <OutboundLink action="Gameify-Github" href="https://github.com/JoaoMaio/Gameify">
+                Learn More 
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </a>
+              </OutboundLink>
           </div>
         </div>
 
@@ -275,11 +279,12 @@ export default function HomePage() {
                       </div>
                   </div>
               </div>
-              <a className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 text-highlight inline-flex items-center" href="https://github.com/JoaoMaio/Side-Projects">Learn More
+              <OutboundLink action="SideProjects-Github" href="https://github.com/JoaoMaio/Side-Projects">
+                Learn More 
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </a>
+              </OutboundLink>
           </div>
         </div>
 
@@ -316,7 +321,6 @@ export default function HomePage() {
             </span>
         </code>
       </section>
-
     </div>
   );
 }
