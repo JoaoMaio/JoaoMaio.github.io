@@ -1,5 +1,6 @@
 'use client';
 
+import OutboundLink from "@/components/outboundclick";
 import React from "react";
 
 export default function HomePage() {
@@ -193,11 +194,12 @@ export default function HomePage() {
                     </div>
                 </div>
 
-                <a className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 text-highlight inline-flex items-center" href="https://github.com/JoaoMaio/WatchList-Wizard">Saber Mais
+                <OutboundLink language="pt" action="WatchList-Wizard-Github" href="https://github.com/JoaoMaio/WatchList-Wizard">
+                  Learn More 
                   <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                      <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
-                </a>
+                </OutboundLink>
             </div>
         </div>
 
@@ -230,11 +232,12 @@ export default function HomePage() {
                       </div>
                   </div>
               </div>
-              <a className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 text-highlight inline-flex items-center" href="https://github.com/JoaoMaio/Gameify">Saber Mais
+              <OutboundLink language="pt" action="Gameify-Github" href="https://github.com/JoaoMaio/Gameify">
+                Learn More 
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </a>
+              </OutboundLink>
           </div>
         </div>
 
@@ -273,11 +276,12 @@ export default function HomePage() {
                       </div>
                   </div>
               </div>
-              <a className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 text-highlight inline-flex items-center" href="https://github.com/JoaoMaio/Side-Projects">Saber Mais
+              <OutboundLink language="pt" action="SideProjects-Github" href="https://github.com/JoaoMaio/Side-Projects">
+                Learn More 
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </a>
+              </OutboundLink>
           </div>
         </div>
 
@@ -300,7 +304,7 @@ export default function HomePage() {
                 <span className="shrink-0 text-textColor2">$</span>
                 <span className="flex-1">
                     <span> Rust🦀-</span>
-                    <span className="text-headingColor"> A trabalhar num projeto pessoal com a biblioteca Iced.rs</span>
+                    <span className="text-headingColor"> A trabalhar num projetos pessoais</span>
                 </span>
             </span>
         </code>
@@ -308,8 +312,8 @@ export default function HomePage() {
             <span className="flex gap-4 text-sm md:text-base">
                 <span className="shrink-0 text-textColor2">$</span>
                 <span className="flex-1">
-                    <span> Godot🎮-</span>
-                    <span className="text-headingColor"> A trabalhar num pequeno jogo para aprender as bases </span>
+                    <span>  Python e PowerBI 📊💻-</span>
+                    <span className="text-headingColor">Aprender a Ciência e Análise de dados com o uso de Webscraping</span>
                 </span>
             </span>
         </code>

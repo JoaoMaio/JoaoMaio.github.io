@@ -196,7 +196,7 @@ export default function HomePage() {
                     </div>
                 </div>
 
-                <OutboundLink action="WatchList-Wizard-Github" href="https://github.com/JoaoMaio/WatchList-Wizard">
+                <OutboundLink language="en" action="WatchList-Wizard-Github" href="https://github.com/JoaoMaio/WatchList-Wizard">
                   Learn More 
                   <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -235,7 +235,7 @@ export default function HomePage() {
                       </div>
                   </div>
               </div>
-              <OutboundLink action="Gameify-Github" href="https://github.com/JoaoMaio/Gameify">
+              <OutboundLink language="en" action="Gameify-Github" href="https://github.com/JoaoMaio/Gameify">
                 Learn More 
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -279,7 +279,7 @@ export default function HomePage() {
                       </div>
                   </div>
               </div>
-              <OutboundLink action="SideProjects-Github" href="https://github.com/JoaoMaio/Side-Projects">
+              <OutboundLink language="en" action="SideProjects-Github" href="https://github.com/JoaoMaio/Side-Projects">
                 Learn More 
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -307,7 +307,7 @@ export default function HomePage() {
                 <span className="shrink-0 text-textColor2">$</span>
                 <span className="flex-1">
                     <span> Rust🦀-</span>
-                    <span className="text-headingColor"> Working on a Personal Project using Iced.rs Library</span>
+                    <span className="text-headingColor"> Working on a Personal Projects</span>
                 </span>
             </span>
         </code>
@@ -315,8 +315,8 @@ export default function HomePage() {
             <span className="flex gap-4 text-sm md:text-base">
                 <span className="shrink-0 text-textColor2">$</span>
                 <span className="flex-1">
-                    <span> Godot🎮-</span>
-                    <span className="text-headingColor"> Working on a Small Game for Learning the basics</span>
+                    <span> Python and PowerBI 📊💻-</span>
+                    <span className="text-headingColor"> Learning Data Science/Analysis and Webscraping the Information </span>
                 </span>
             </span>
         </code>

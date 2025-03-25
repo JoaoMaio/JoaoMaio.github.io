@@ -5,16 +5,18 @@ import { ReactNode } from "react";
 interface OutboundLinkProps {
   href: string;
   action: string;
+  language: string;
   children: ReactNode;
 }
 
-const OutboundLink = ({ href, action, children }: OutboundLinkProps) => {
+const OutboundLink = ({ href, action, language, children }: OutboundLinkProps) => {
   const handleClick = () => {
     if (typeof window !== "undefined") {
       event({
         action: action,
         category: "outbound",
         label: href,
+        language: language,
       });
     }
   };

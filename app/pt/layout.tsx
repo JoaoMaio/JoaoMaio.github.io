@@ -3,6 +3,9 @@ import TypewriterEffect from "@/components/typewriter";
 import { ReactNode } from 'react';
 import Link from "next/link";
 import { Metadata } from "next";
+import Script from 'next/script';
+import Head from 'next/head'
+import { GA_TRACKING_ID } from "@/components/gtag";
 
 export const metadata: Metadata = {
   title: "Joao Maio Portfolio",
@@ -17,7 +20,24 @@ export default function RootLayout({children }: Props) {
 
   return (
       <div>
+      <Head>
+          <title>Joao Maio Portfolio</title>
+      </Head>
+      <Script 
+        id="google-analytics2"
+        strategy="afterInteractive" 
+        src= {`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`} >
+          
+      </Script>
 
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-4Q6NTGN229');
+        `}
+      </Script>
         {/* Header */}
         <header id="home" className="sticky top-0 z-50 shadow-md backdrop-blur-lg">
           <nav className="mx-4 py-3 flex flex-col lg:flex-row lg:justify-between lg:items-center">
