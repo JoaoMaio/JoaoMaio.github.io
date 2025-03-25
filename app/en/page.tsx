@@ -316,7 +316,7 @@ export default function HomePage() {
                 <span className="shrink-0 text-textColor2">$</span>
                 <span className="flex-1">
                     <span> Python and PowerBI 📊💻-</span>
-                    <span className="text-headingColor"> Learning Data Science/Analysis and Webscraping the Information </span>
+                    <span className="text-headingColor"> Learning Data Science/Analysis using Webscraping </span>
                 </span>
             </span>
         </code>
