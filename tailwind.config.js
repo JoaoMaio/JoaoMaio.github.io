@@ -26,6 +26,9 @@ module.exports = {
         "dockerColor": "#0db7ed",
         "drupalColor": "#0274ba",
         "phpColor": "#7378af",
+        "pythonColor": "#3776ab",
+        "javaColor": "#f89820",
+        "langchainColor": "#053d5b",
       },
       maxWidth: {
         '0': '0',
