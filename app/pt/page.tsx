@@ -15,7 +15,7 @@ export default function HomePage() {
       {/* About Section */}
       <section className="flex items-center justify-center pb-0 max-w-3/4 mx-auto">
         <p className="mt-4 text-textColor2 max-w-full text-base md:text-3xl text-center">
-        Hello! Eu sou o <span className="text-button font-black"> Joao Maio</span>, um developer de 23 anos que mora em Portugal, com mestrado em Engenharia Informática na Universidade da Beira Interior.
+        Hello! Eu sou o <span className="text-button font-black"> Joao Maio</span>, um developer de 25 anos que mora em Portugal, com mestrado em Engenharia Informática na Universidade da Beira Interior.
           <br></br>
           Para além de programar, gosto de jogar RPGs, nadar, trabalhar em projetos pessoais e aprender coisas novas. O meu objetivo é criar software com qualidade que combine funcionalidade com uma excelente experiência para o utilizador.
           <br></br>
@@ -65,7 +65,7 @@ export default function HomePage() {
         <div className="px-4 py-4 mx-auto font-normal bg-background2 border-borderColor rounded-lg w-full max-w-[1000px]">
           <div className="flex flex-col justify-between lg:flex-row items-center">
             <h3 className="mb-2 text-xl md:text-2xl font-semibold leading-snug text-center lg:text-left">
-              <a className="underline text-textColor hover:text-highlight" href="https://latitudde.com">Latitudde</a>
+              <a className="underline text-textColor hover:text-highlight" href="https://conkord.com">Conkord</a>
             </h3>
             <div className="flex flex-wrap justify-center items-center mb-2 gap-y-2 space-x-2 lg:space-x-2 lg:space-y-0 lg:flex-row">
               <p className="px-2 text-textColor bg-angularColor rounded">Angular</p>
@@ -99,7 +99,7 @@ export default function HomePage() {
         <div className="px-4 py-4 mx-auto font-normal bg-background2 border-borderColor rounded-lg w-full max-w-[1000px]">
           <div className="flex flex-col justify-between lg:flex-row items-center">
             <h3 className="mb-2 text-xl md:text-2xl font-semibold leading-snug text-center lg:text-left">
-              <a className="underline text-textColor hover:text-highlight" href="https://latitudde.com">Latitudde</a>
+              <a className="underline text-textColor hover:text-highlight" href="https://conkord.com">Conkord</a>
             </h3>
             <div className="flex flex-wrap justify-center items-center mb-2 gap-y-2 space-x-2 lg:space-x-2 lg:space-y-0 lg:flex-row">
               <p className="px-2 text-textColor bg-angularColor rounded">Angular</p>
@@ -127,10 +127,10 @@ export default function HomePage() {
         </div>
 
         {/* Vertical Line */}
-        <div id="adot" className="w-[2px] h-6 md:h-20 bg-gray-500"></div>
+        <div className="w-[2px] h-6 md:h-20 bg-gray-500"></div>
 
         {/* Third Work Experience */}
-        <div  className="px-4 py-4 mx-auto font-normal bg-background2 border-borderColor rounded-lg w-full max-w-[1000px]">
+        <div className="px-4 py-4 mx-auto font-normal bg-background2 border-borderColor rounded-lg w-full max-w-[1000px]">
           <div className="flex flex-col justify-between lg:flex-row items-center">
             <h3 className="mb-2 text-xl md:text-2xl font-semibold leading-snug text-center lg:text-left">
               <a className="underline text-textColor hover:text-highlight" href="https://adot.pt">Associação Desenvolver o Talento</a>
@@ -150,17 +150,18 @@ export default function HomePage() {
             </ul>
         </div>  
 
-        <div id="rit" className="w-[2px] h-6 md:h-20 bg-gray-500"></div>
+        <div className="w-[2px] h-6 md:h-20 bg-gray-500"></div>
 
         {/* Fourth Work Experience */}
-        <div  className="px-4 py-4 mx-auto font-normal bg-background2 border-borderColor rounded-lg w-full max-w-[1000px]">
+        <div className="px-4 py-4 mx-auto font-normal bg-background2 border-borderColor rounded-lg w-full max-w-[1000px]">
           <div className="flex flex-col justify-between lg:flex-row items-center">
             <h3 className="mb-2 text-xl md:text-2xl font-semibold leading-snug text-center lg:text-left">
-              <a className="underline text-textColor hover:text-highlight" href="https://ritain.io/">Ritain.io</a>
+              <a className="underline text-textColor hover:text-highlight" href="https://conkord.com">Conkord</a>
             </h3>
             <div className="flex flex-wrap justify-center items-center mb-2 gap-y-2 space-x-2 lg:space-x-2 lg:space-y-0 lg:flex-row">
               <p className="px-2 text-textColor bg-pythonColor rounded">Python</p>
               <p className="px-2 text-textColor bg-langchainColor rounded">Langchain/LangGraph</p>
+              <p className="px-2 text-textColor bg-javaColor rounded">AWS and AWS Bedrock</p>
               <p className="px-2 text-textColor bg-dockerColor rounded">Docker</p>
               <p className="px-2 text-textColor bg-javaColor rounded">Java</p>
               <p className="px-2 text-textColor bg-dockerColor rounded">SQL</p>
@@ -172,12 +173,10 @@ export default function HomePage() {
                     A trabalhar como AI Developer
               </li>
               <li className="text-headingColor">
-                Usando <strong className="font-bold">Python</strong>, <strong className="font-bold">Langchain/LangGraph</strong>, <strong className="font-bold">Java Springboot</strong> e <strong className="font-bold">Docker</strong> ao trabalhar na construção de Agentes de IA para clientes para melhorar seus processos de negócios.
+                Usando <strong className="font-bold">Python</strong>, <strong className="font-bold">Langchain/LangGraph</strong>, <strong className="font-bold">AWS and AWS Bedrock</strong>, <strong className="font-bold">Java Springboot</strong> e <strong className="font-bold">Docker</strong> ao trabalhar na construção de Agentes de IA para clientes para melhorar seus processos de negócios.
               </li>
             </ul>
         </div> 
-
-
       </section>
 
       {/* Divider */}
@@ -328,6 +327,15 @@ export default function HomePage() {
 
       {/* Currently Learning Section */}
       <section className="flex flex-col gap-6 items-center justify-center p-8 w-full max-w-[900px] mx-auto">
+        <code className="text-lg inline-flex text-left items-center space-x-4 bg-gray-800 text-white rounded-lg p-4 pl-6">
+            <span className="flex gap-4 text-sm md:text-base">
+                <span className="shrink-0 text-textColor2">$</span>
+                <span className="flex-1">
+                    <span>  Utilização de LLMs locais  🤖💻-</span>
+                    <span className="text-headingColor"> Utilização de LLMs locais para desenvolvimento e testes com o LMStudio e o Ollama</span>
+                </span>
+            </span>
+        </code>
         <code className="text-lg inline-flex text-left items-center space-x-4 bg-gray-800 text-white rounded-lg p-4 pl-6">
             <span className="flex gap-4 text-sm md:text-base">
                 <span className="shrink-0 text-textColor2">$</span>

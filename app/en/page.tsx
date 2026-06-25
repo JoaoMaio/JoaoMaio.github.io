@@ -15,7 +15,7 @@ export default function HomePage() {
       {/* About Section */}
       <section className="flex items-center justify-center pb-0 max-w-3/4 mx-auto">
         <p className="mt-4 text-textColor2 max-w-full text-base md:text-3xl text-center">
-          Hi there! I&apos;m <span className="text-button font-black"> Joao Maio</span>, a 23 year old developer based in Portugal, with a Master&apos;s Degree in Computer Science taken in Universidade da Beira Interior.
+          Hi there! I&apos;m <span className="text-button font-black"> Joao Maio</span>, a 25 year old developer based in Portugal, with a Master&apos;s Degree in Computer Science taken in Universidade da Beira Interior.
           <br></br>
           In addition to coding, I enjoy playing RPGs, swimming, tinkering with personal projects and learning new things. My goal is to create impactful software that combines functionality with great user experience. 
           <br></br>
@@ -65,7 +65,7 @@ export default function HomePage() {
         <div className="px-4 py-4 mx-auto font-normal bg-background2 border-borderColor rounded-lg w-full max-w-[1000px]">
           <div className="flex flex-col justify-between lg:flex-row items-center">
             <h3 className="mb-2 text-xl md:text-2xl font-semibold leading-snug text-center lg:text-left">
-              <a className="underline text-textColor hover:text-highlight" href="https://latitudde.com">Latitudde</a>
+              <a className="underline text-textColor hover:text-highlight" href="https://conkord.com">Conkord</a>
             </h3>
             <div className="flex flex-wrap justify-center items-center mb-2 gap-y-2 space-x-2 lg:space-x-2 lg:space-y-0 lg:flex-row">
               <p className="px-2 text-textColor bg-angularColor rounded">Angular</p>
@@ -99,7 +99,7 @@ export default function HomePage() {
         <div className="px-4 py-4 mx-auto font-normal bg-background2 border-borderColor rounded-lg w-full max-w-[1000px]">
           <div className="flex flex-col justify-between lg:flex-row items-center">
             <h3 className="mb-2 text-xl md:text-2xl font-semibold leading-snug text-center lg:text-left">
-              <a className="underline text-textColor hover:text-highlight" href="https://latitudde.com">Latitudde</a>
+              <a className="underline text-textColor hover:text-highlight" href="https://conkord.com">Conkord</a>
             </h3>
             <div className="flex flex-wrap justify-center items-center mb-2 gap-y-2 space-x-2 lg:space-x-2 lg:space-y-0 lg:flex-row">
               <p className="px-2 text-textColor bg-angularColor rounded">Angular</p>
@@ -127,7 +127,7 @@ export default function HomePage() {
         </div>
 
         {/* Vertical Line */}
-        <div id="adot" className="w-[2px] h-6 md:h-20 bg-gray-500"></div>
+        <div className="w-[2px] h-6 md:h-20 bg-gray-500"></div>
 
         {/* Third Work Experience */}
         <div  className="px-4 py-4 mx-auto font-normal bg-background2 border-borderColor rounded-lg w-full max-w-[1000px]">
@@ -150,17 +150,18 @@ export default function HomePage() {
             </ul>
         </div>    
 
-        <div id="rit" className="w-[2px] h-6 md:h-20 bg-gray-500"></div>
+        <div className="w-[2px] h-6 md:h-20 bg-gray-500"></div>
 
         {/* Fourth Work Experience */}
         <div  className="px-4 py-4 mx-auto font-normal bg-background2 border-borderColor rounded-lg w-full max-w-[1000px]">
           <div className="flex flex-col justify-between lg:flex-row items-center">
             <h3 className="mb-2 text-xl md:text-2xl font-semibold leading-snug text-center lg:text-left">
-              <a className="underline text-textColor hover:text-highlight" href="https://ritain.io/">Ritain.io</a>
+              <a className="underline text-textColor hover:text-highlight" href="https://conkord.com">Conkord</a>
             </h3>
             <div className="flex flex-wrap justify-center items-center mb-2 gap-y-2 space-x-2 lg:space-x-2 lg:space-y-0 lg:flex-row">
               <p className="px-2 text-textColor bg-pythonColor rounded">Python</p>
               <p className="px-2 text-textColor bg-langchainColor rounded">Langchain/LangGraph</p>
+              <p className="px-2 text-textColor bg-javaColor rounded">AWS and AWS Bedrock</p>
               <p className="px-2 text-textColor bg-dockerColor rounded">Docker</p>
               <p className="px-2 text-textColor bg-javaColor rounded">Java</p>
               <p className="px-2 text-textColor bg-dockerColor rounded">SQL</p>
@@ -172,7 +173,7 @@ export default function HomePage() {
                     Working as a AI Developer
               </li>
               <li className="text-headingColor">
-                Using <strong className="font-bold">Python</strong>, <strong className="font-bold">Langchain/LangGraph</strong>, <strong className="font-bold">Java Springboot</strong> and <strong className="font-bold">Docker</strong> when working on building AI Agents for customers to improve their business processes.
+                Using <strong className="font-bold">Python</strong>, <strong className="font-bold">Langchain/LangGraph</strong>, <strong className="font-bold">AWS and AWS Bedrock</strong>, <strong className="font-bold">Java Springboot</strong> and <strong className="font-bold">Docker</strong> when working on building AI Agents for customers to improve their business processes.
               </li>
             </ul>
         </div>   
@@ -330,6 +331,15 @@ export default function HomePage() {
 
       {/* Currently Learning Section */}
       <section className="flex flex-col gap-6 items-center justify-center p-8 w-full max-w-[900px] mx-auto">
+        <code className="text-lg inline-flex text-left items-center space-x-4 bg-gray-800 text-white rounded-lg p-4 pl-6">
+            <span className="flex gap-4 text-sm md:text-base">
+                <span className="shrink-0 text-textColor2">$</span>
+                <span className="flex-1">
+                    <span>  Local LLM Usage 🤖💻-</span>
+                    <span className="text-headingColor"> Using Local LLMs for Development and Experimentation using LMStudio and Ollama </span>
+                </span>
+            </span>
+        </code>
         <code className="text-lg inline-flex text-left items-center space-x-4 bg-gray-800 text-white rounded-lg p-4 pl-6">
             <span className="flex gap-4 text-sm md:text-base">
                 <span className="shrink-0 text-textColor2">$</span>
